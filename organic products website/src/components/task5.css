@@ -1,0 +1,158 @@
+/* page 1 css */
+.main-container_page1{
+    background-image: url(page1_bg.jpg);
+    
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.top{
+    margin-top: 25%;
+    color: azure;   
+}
+
+.pg1h1{
+    font-weight: 700;
+}
+
+.pg1p12{
+    font-style: italic;
+    font-weight: 400;
+    font-size: medium;
+    font-family: cursive;
+    font-size: large;
+   
+}
+
+
+
+/* PAGE 2 CSS */
+
+.main-container_page2{
+    background-color: green;
+}
+
+.pg2card1{
+    background-color: green;
+}
+
+/* PAGE 3 CSS */
+
+.pg3ls9{
+    background-image: url(promises.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.pg3style12{
+font-family: sans-serif;
+margin-left: 13%;
+color: orange;
+font-style: italic;
+
+
+}
+
+.pg3ls10{
+    margin-top: 15%;
+    
+}
+
+.pg3style13{
+    font-style: italic;
+    margin-left: 13%;
+    font-weight: 700;
+}
+
+/* PAGE 5 CSS */
+
+
+.pg4ls9{
+    background-image: url(cow.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.pg4ls10{
+    margin-top: 5%;   
+}
+
+.pg4style13{
+    font-style: italic;
+    margin-left: 13%;
+    font-weight: 700;
+}
+
+/* PAGE 6 CSS */
+
+
+
+.pg6cd{
+    height: 40vh;
+    width: 100%;
+    background-size:contain;
+    /* background-position-x: center; */
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.main-container_page6{
+    background-color: rgb(202, 205, 207);
+}
+
+/* PAGE 7 CSS */
+
+.pg7style11{
+    font-style: italic;
+    margin-left: 6%;
+    font-weight: 700;
+    color: orange;
+}
+
+.pg7style12{
+
+    font-style: italic;
+    margin-left: 8%;
+    font-weight: 700;
+}
+
+.pg7rs22{
+    background-image: url(vegetables.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+}
+
+/* navbar*/
+
+.navbar{
+    font-weight: 700;
+    font-size: large;
+    background-color: rgb(185, 188, 190);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+   
+
+.nav18{
+    text-align: right;
+    color: green ;
+}
+
+.nav20{
+    margin-right: 3%;
+    position: sticky;
+}
+
+.font15{
+    font-size: 150%;
+}
