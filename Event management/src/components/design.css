@@ -1,0 +1,284 @@
+/* page1 css */
+.pg1bg{
+    background-image: url("./img1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+.pg1mc{
+    margin-top:25%;
+}
+
+/* footer css */
+ 
+.horiline{
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+/* .horiline1{
+    border-top: 1px solid white;
+    width: 132%;
+    margin-top: 592%;
+} */
+
+.vertiline{
+    border-left: 1px solid white;
+    height: 90vh;
+}
+
+.footer_booking_button{
+
+    height: 5vh;
+    width: 40%;
+    background-color: red;
+    color: white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius:10% ;
+    
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.footer_call_icon{
+    padding-left: 60%;
+}
+
+.footer_location_icon{
+    padding-left:60%;
+}
+
+.footer_clock_icon{
+    padding-left:60%;
+}
+/* .social{
+    font-size: 50px;
+} */
+
+/* page2 css */
+.pg2cd{
+
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+}
+
+
+.contain1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain1 .card{
+    background-color:white;
+    position:relative;
+    cursor: pointer;
+
+}
+
+.contain1 .card .face{
+    width: 100%;
+    height: 40vh;
+    /* border-radius: 30%; */
+    transition: 0.8s ;
+}
+
+.contain1 .card .face.face1{
+    position: relative;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(40%);
+}
+
+.contain1 .card:hover .face.face1{
+    background:black;
+    transform: translateY(0);
+}
+
+.contain1 .card .face.face1 .content{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.contain1 .card .face.face1 .content h3{
+    margin-top: 1%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+}
+
+.contain1 .card .face.face2{
+    position: relative;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px rgba(142, 207, 158, 0.8);
+    transform: translateY(-60%);
+
+}
+
+.contain1 .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+ .contain1 .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+} 
+
+
+/* team css */
+
+.teampic{
+   height: 40vh;
+   width: 100%;
+}
+
+.container1{
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.container1 .card{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+    padding: 5% 8%;
+    
+}
+
+.container1 .card .team{
+    position: relative;
+    top: -10%;
+}
+
+.container1 .card .content{
+    position: relative;
+    margin-top: -50%;
+    text-align: center;
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: 0.3s ease-in-out;
+}
+
+.container1 .card:hover .content{
+    height: 65vh;
+    visibility: visible;
+
+    margin-top: 0%;
+    transition-delay: 0.3s;
+}
+
+.container1 .card:hover{
+    height: 65vh;
+}
+/* .container1.card.content :hover .social {
+        cursor: grab;
+} */
+
+.social:hover{
+    cursor: grab;
+    color: blue;
+}
+
+/* testimonal css */
+
+.testimonal{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(232, 228, 228);
+}
+
+.testimonal_image{
+    height: 40vh;
+    width: 80%;
+    margin-left: 5%;
+    border: 10px solid orange;
+    border-radius: 50%;
+}
+
+.testimonal_review{
+    font-style: italic;
+    font-weight: 600;
+    
+}
+                                                
+.carousel-indicators .active {
+  
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color:green;
+    height: -10vh;
+    width: 5%;
+    
+    
+}
+
+.carousel-navigation{
+    background-color: blue;
+}
+
+/* galery css */
+
+.galery_title{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.galery_image{
+    columns: 3 250px;
+    gap:1%;
+}
+
+.galery_image img{
+    margin-bottom: 3%;
+    border-radius: 1%;
+    width: 100%;
+}
+
+/* navbar css */
+
+.navlogo{
+    width:33px;
+}
+
+/* contact css */
+
+.background{
+    background-image:url("gimg13.jpg");
+
+    height: 65vh;
+    width: 100%;
+    position: absolute;
+    opacity: 1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    filter: contrast(5px);
+    object-fit: cover;
+}
