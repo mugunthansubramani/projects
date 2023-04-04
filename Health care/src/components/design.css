@@ -1,0 +1,457 @@
+/* page1 css */
+
+.pg1mc{
+    background-image: url(./img1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pg1ali{
+    padding-top: 23%;
+    padding-left: 1%;
+    
+}
+.pg1h1{
+    font-weight: 900;
+}
+.pg1h5{
+    font-weight: 900;
+}
+.pg1p15{
+    font-weight: 700;
+    
+}
+
+/* page2 css */
+
+.card1{
+ background-color: blueviolet;
+ margin-left: 5%;
+}
+
+.card2{
+    background-color: red;
+    margin-left: 5%;
+}
+
+.card3{
+    background-color:black;
+    margin-left: 5%;
+}
+
+/* .icon1{
+    width: 25%;
+    height: 25vh;
+    margin-left: 35%;
+    
+}
+
+.icon2{
+    width: 25%;
+    height: 25vh;
+    margin-left: 35%;
+    
+}
+
+.icon3{
+    width: 25%;
+    height: 25vh;
+    margin-left: 35%; */
+    
+
+.pg2di1{
+    padding-left: 4%;
+    margin-top: 6%;
+}
+
+/* page2 card special */
+
+.contain1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain1 .card{
+    background-color:white;
+    position:relative;
+    cursor: pointer;
+
+}
+
+.contain1 .card .face{
+    width: 100%;
+    height: 40vh;
+    border-radius: 30%;
+    transition: 0.8s ;
+}
+
+.contain1 .card .face.face1{
+    position: relative;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(40%);
+}
+
+.contain1 .card:hover .face.face1{
+    background:blue;
+    transform: translateY(0);
+}
+
+.contain1 .card .face.face1 .content{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* .contain1 .card:hover .face.face1 .content{
+    opacity: 1;
+} */
+
+.pic{
+    font-size: 100px;
+    max-width: 100%;
+    margin-left: 25%;
+}
+
+.contain1 .card .face.face1 .content h3{
+    margin-top: 1%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 150%;
+}
+
+.contain1 .card .face.face2{
+    position: relative;
+    background: #2bd444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px rgba(170, 199, 231, 0.8);
+    transform: translateY(-60%);
+
+}
+
+.contain1 .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+ .contain1 .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+} 
+
+.contain1 .card .face.face2 .content a{
+    margin: 8% 0 0;
+    display: inline-block;
+    
+    font-weight: 900;
+    color: green;
+    padding: 2%;
+    border: 1px solid #333;
+
+}
+
+.contain1 .card .face.face2 .content a:hover{
+    background:red;
+    color: white;
+} 
+
+
+/* page 3 css */
+
+.pg3mc{
+    background-image: url(./img2.jpg);
+    /* height: 100vh;
+    width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.pg3ln10{
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-bottom: 10%;
+}
+
+.pg3h1{
+    font-weight: bolder;
+    font-size: 500%;
+}
+.textbox{
+    width: 100%;
+    height: 10vh;
+    padding-top: 4%;
+}
+
+.pg3bu{
+    width: 100%;
+    margin-top: 4%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    height: 10vh;
+}
+
+/* page4 css */
+
+.pg4mc{
+    background-color: blueviolet;
+    /* width: 100%;
+    height: 100vh; */
+}
+
+.pg4r10{
+    font-weight: 900;
+    font-size: 180%;
+}
+/* 
+.pg4icon1{
+    color: white ;
+    width: 25%;
+    height: 25vh;
+
+} */
+
+/* page5 css */
+
+.pg5mc{
+    background-color:white;
+    width: 100%;
+    
+}
+
+.pg5bu{
+    background-color: blueviolet;
+    width: 50%;
+    height: 6vh;
+}
+
+.pg5r10{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.circle{
+    height: 70vh;
+    width: 70%;
+    background-color: rgb(194, 144, 240);
+    border-radius: 50%;
+   
+    margin-left: 30%;
+    margin-top: 2%;
+    background-image: url(./girl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: inline-block;
+    
+}
+
+.secircle{
+    height: 30vh;
+    width: 30%;
+    background-color:rgb(194, 144, 240);
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.impact{
+    margin-left: 8%;
+}
+
+.thcircle{
+    height: 15vh;
+    width: 15%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: palevioletred;
+    margin-left: 30%;
+    margin-top: 15%;
+    
+}
+
+.pg5p{
+    margin-top: 10%;
+    margin-left: 20%;
+    /* position: absolute; */
+    font-size: 250%;
+}
+
+/* page6 css */
+
+.pg6mc{
+    background-color: rgb(195, 192, 192);
+    /* width: 100%;
+    height: 100vh; */
+}
+
+.pg6cir{
+    height: 15vh;
+    width: 10%;
+    border-radius: 50%;
+    background-color: rgb(149, 103, 192);
+}
+
+.pg6p18{
+    font-size: 125%;
+}
+
+.pg6bg{
+    background-image: url(./child.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.pg6bu{
+    margin-top: 5%;
+    height: 15%;
+    width: 30%;
+}
+
+/* page7 css */
+
+.pg7h11{
+    color: blueviolet;
+    font-size: 400%;
+    font-weight: 700;
+}
+
+/* .pg7mc{
+    height: 135vh;
+    width: 100%;
+} */
+
+/* page8 css */
+
+.pg8mc{
+    background-color: rgb(185, 182, 182);
+    /* height: 100vh;
+    width: 100%; */
+}
+
+.pg8bar{
+    height: 3vh;
+    width: 70%;
+    background-color: rgb(94, 9, 173);
+    margin-top: 5%;
+}
+
+.pg8p14{
+    font-size: x-large;
+}
+
+.pg8bu{
+    background-color: rgb(94, 9, 173);
+    width: 50%;
+    height: 6vh;
+    color: white;
+    margin-top: 5%;
+}
+
+.pg8circle{
+    height: 10vh;
+    width: 15%;
+    border-radius: 50%;
+    background-color: rgb(166, 120, 209);
+    margin-left: 5%;
+    margin-top:45%;
+}
+
+.pg8p23{
+    font-size: larger;
+}
+
+/* page9 css */
+
+.pg9mc{
+    height: 100vh;
+    width: 100%;
+}
+.pg9sc{
+    background-color: rgb(201, 198, 198);
+    height: 60vh;
+}
+.pg9row2{
+
+    color: white;
+  
+    
+    background-color: rgb(166,120,209);
+    height: 60vh;
+}
+
+
+.pg9c30 :hover{
+    color: rgb(101, 247, 96);
+    cursor: pointer;
+}
+.pg9c34 :hover{
+    color: rgb(101, 247, 96);
+    cursor: pointer;
+}
+.pg9c37 :hover{
+    color: rgb(101, 247, 96);
+    cursor: pointer;
+}
+
+.pg9c30{
+    padding-left: 40%;
+    padding-top: 25%;
+}
+
+.pg9c34{
+    padding-left: 40%;
+    padding-top: 15%;
+}
+
+.pg9c37{
+    padding-left: 40%;
+    padding-top: 15%;
+}
+
+.pg9p24{
+    font-weight: 800;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+.pg9p21{
+    margin-left: 5%;
+    font-size: 150%;
+    margin-top: 5%;
+
+}
+
+.pg9abt15{
+    margin-top: 2%;
+    color: blueviolet;
+    padding-left: 13%;
+    font-weight: 900;
+}
+
+/* navbar css */
+.navlogo{
+    width:33px;
+    margin-right: 1%;
+}
+
+/* smoke page css */
+

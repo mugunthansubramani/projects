@@ -1,0 +1,40 @@
+/* body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color: black;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-size: 500%;
+    letter-spacing: 2rem;
+}
+h1 span {
+
+    opacity: 0;
+    
+    animation: animate 1s linear forwards;
+}
+
+ @keyframes animate {
+
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}  */
